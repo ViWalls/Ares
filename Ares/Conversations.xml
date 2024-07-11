@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<conversations>
+  <conversation ID="Poopdog">
+    <node ID="Start">
+      <text>
+	  {{emote|*Winds around sniffing beneath you.*}}~
+	  {{emote|*Between pants and tongue lolling, he tilts the head.*}}~
+	  {{emote|*Stops chewing a stick that got somewhere. Looks at you and arfs.*}}~
+	  {{emote|*Stares at you.*}}~
+	  {{emote|*Rolls on his back for a while, stands up and stretches.*}}
+      </text>
+      <choice GotoID="End">Bark and drink, poopdog.</choice>
+	</node>
+  </conversation>
+</conversations>

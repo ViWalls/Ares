@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objects>
+  <object Name="Poopdog" Inherits="BaseDog">
+    <part Name="Render" DisplayName="Ares" Tile="Creatures/ares.png" RenderString="b" ColorString="&amp;y" DetailColor="Y" />
+    <part Name="Description" Short="A worthless mutt. Gallium veins and crystalline skin, the whole body is wet with amniotic slick. His existence it's the living proof that before reaching perfection, what now is considered the archetypal dog, there were attempts cast away." />
+    <part Name="Corpse" BodyDrop="false" InventoryDrop="true"/>
+	<part Name="ConversationScript" ConversationID="Poopdog"/>
+	<part Name="GivesRep" />
+    <tag Name="staticFaction1" Value="Templar,hate,pooping in a funeral of their leader" />
+    <part Name="Body" Anatomy="Quadruped"/>
+    <stat Name="Level" Value="40" />
+    <stat Name="Strength" Boost="1" />
+    <stat Name="MoveSpeed" Value="50" />
+    <stat Name="Speed" Value="115" />
+    <stat Name="AV" Value="12" />
+    <stat Name="DV" Value="6" />
+    <stat Name="Hitpoints" Value="500" />
+    <inventoryobject Blueprint="Cherubic Bite" Number="1" />
+    <tag Name="PetResponse" Value="burps.,wags his tail.,licks your hand.,looks at you with an indulgent reflection on his eyes.,spins around you.,puts his paw on top of your hand.,curls around your petting.,farts.,pushes his head into you.,howls."/>
+    <part Name="Pettable" />
+    <tag Name="Pet"/>
+    <xtagGrammar Proper="true"/>
+    <tag Name="Gender" Value="male"/>
+    <tag Name="ExcludeFromDynamicEncounters" Value="true" />
+    <mutation Name="Night Vision" Level="6"/>
+  </object>
+
+</objects>
